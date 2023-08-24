@@ -1,0 +1,243 @@
+---
+title: "S.O.S. TCC"
+subtitle: "Encontro 04 - Abordagens quantitativas"
+author: "Ludmila Guimarães e Renata Oliveira"
+logo: "logo.jpg"
+#subtitle: "Sejam bem vindos!"
+#footer:  "[Ciência aberta e em colaboração](https://open-reproducible-research.github.io/website/)"
+from: markdown+emoji
+institute: "PetADM"
+title-slide-attributes: 
+  data-background-size: contain
+  data-background-color: '#04b0af'
+format: 
+  revealjs: 
+    embed-resources: false
+    theme: 
+      - slides.scss
+    incremental: true
+    multiplex: true
+    transition: fade
+    slide-number: c/t
+    width: 1600
+    height: 900
+    echo: false
+    scrollable: true
+    preview-links: auto
+    chalkboard: true
+    highlight-style: github
+editor: source
+execute:
+  freeze: auto
+---
+
+## Retrospecto
+1. Tema
+2. **`Pergunta-problema`**
+3. Objetivos geral e específico
+4. Relevância
+5. Revisão da literatura
+6. Abordagem qualitativa
+7. Abordagem quantitativa
+8. Discussão e conclusões
+
+## Agenda
+- AI para suporte à revisão da literatura
+- Dados primários e dados secundários
+- Questionários
+- Segmentação da amostra
+- Métodos de análise
+
+
+
+## Recursos para suporte à revisão da literatura
+
+:::: {.columns}
+::: {.column width="50%"}
+### `Organização dos artigos`
+- [Zotero](https://www.zotero.org/download/)   
+- [Mendeley](https://www.mendeley.com/)
+
+### `Elaboração de notas atômicas`
+- [Notion](https://notion.so)   
+- [Scrintal](https://www.scrintal.com/)   
+- [Evernote](https://evernote.com)   
+- [Obsidian](https://obsidian.md/)   
+:::
+::: {.column width="50%"}
+
+### `Citações`
+- Plugin Word - Zotero
+- Plugin Chrome - Zotero
+
+### `Revisão textual`
+- [Grammarly](https://www.grammarly.com/)
+- [LanguageTool](https://languagetool.org/pt-BR/wordpress?utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=&utm_term=&gclid=CjwKCAjwivemBhBhEiwAJxNWN8WgXmP2-UMF9JBeOGTChhsYxndJtVnqmKsAbw3pBYU8-SoFaTZ3fxoCe_YQAvD_BwE)
+:::
+::::
+
+## Recursos para suporte à revisão da literatura
+- [Scispace](https://www.typeset.io)
+- [Perplexity](https://www.perplexity.ai)
+- [Research Rabbit](https://www.researchrabbit.ai/)
+
+## Atividade - Revisão da literatura
+::: {.medium}
+1. Faça seu cadastro nas plataformas **`Zotero`**, **`Research Rabbit`** e **`Scispace`**
+2. A partir da sua pergunta problema, escolha palavras-chave e pesquise essas palavras no `Scispace` e escolha dois artigos com maior número de citações e publicado em revistas de impacto. 
+3. Entre na sua conta no `Research Rabbit`, crie uma coleção e adicione os DOI desses artigos para pesquisa.
+4. Identifique os autores e as publicações mais relevantes nesse assunto.
+:::
+
+## Dados primários e dados secundários
+:::: {.columns}
+::: {.column width="50%"}
+::: {.medium}
+
+**Dados primários**   
+Dados **inéditos** coletados diretamente pelos pesquisadores
+:::
+:::
+
+::: {.column width="50%"}
+::: {.medium}
+
+**Dados secundários**   
+Dados **públicos** e **já existentes**, coletados por terceiros. Podem ser `estruturados` ou `não estruturados`.
+:::
+:::
+::::
+
+[Primary and secondary data](https://www.youtube.com/watch?v=VKR1EgfcKdQ)
+
+
+## Dados primários e dados secundários
+:::: {.columns}
+::: {.column width="50%"}
+**Dados primários**   
+- Grupos focais   
+- Entrevistas   
+- Monitoramento de mídias sociais   
+- Questionários   
+- Gravações de audio   
+- Gravações de video 
+- Observação
+- Ensaios em laboratório
+:::
+
+::: {.column width="50%"}
+**Dados secundários**   
+- Sites de empresas   
+- Estatísticas públicas   
+- Parcerias com instituições   
+- Relatórios publicizados   
+- Artigos com disponibilização de dados primários   
+- Web scrapping
+:::
+::::
+
+## Dados primários e dados secundários
+:::: {.columns}
+::: {.column width="50%"}
+**Dados primários**   
+- Organizados     
+- Controle da quantidade e da qualidade    
+- Certezas sobre a qualidade das fontes   
+**`- Consume mais tempo`   **   
+**`- Custo mais elevado`   **   
+**`- Sujeito participante`**  
+:::
+
+::: {.column width="50%"}
+**Dados secundários**   
+- Agilidade   
+- Baixo custo    
+- Ajuda a refinar a pergunta de pesquisa   
+**`- Dados podem estar antigos `**  
+**`- Pode haver viés que não será identificado ou resolvido na base de dados`**   
+**`- Incertezas sobre a confiabilidade e validade das fontes`**
+:::
+::::
+
+## Questionários - Vantagens e desvantagens
+:::: {.columns}
+::: {.column width="50%"}
+**Vantagens**   
+- Permite obter uma grande quantidade de dados em pouco tempo;   
+- Pode atingir um grande número de pessoas simultaneamente;    
+- Respostas obtidas de forma rápida e precisa;    
+- Em razão do anonimato, os respondentes se sentem mais à vontade;    
+- Facilita a padronização e comparação dos dados;    
+- Menos risco de distorção.    
+:::
+
+::: {.column width="50%"}
+**Desvantagens**   
+- Falta de pessoalidade;    
+- Os respondentes podem ser desonestos ou responder sem que a resposta realmente reflita a intenção de comportamento;     
+- A leitura de todas as perguntas, antes de responder, pode influenciar nas respostas;
+- **Impossibilidade de generalização**
+:::
+::::
+
+## Questionários - Dicas
+- **Revise o problema de pesquisa**
+- Conheça os tipos de questões
+- Determine cada pergunta pensando nas variáveis que serão investigadas conforme teoria
+- Inclua dados socioeconômicos e demográficos
+- Inclua o TCLE
+- Procure equilibrar o detalhamento com o tempo a ser gasto por cada respondente
+- Use uma ferramenta digital
+- Faça um teste piloto
+- Revise o conteúdo do questionário
+
+
+## Questionários - Tipos de perguntas
+**Única escolha**   
+![](unica.png)
+
+## Questionários - Tipos de perguntas
+**Likert**      
+![](likert_question.png)
+
+
+## Questionário - Escala Likert
+
+![](likert.png)
+
+
+
+## Questionários - Tipos de perguntas
+**Aberta**      
+![](aberta.png)
+
+## Questionários - Tipos de perguntas
+**Múltipla escolha**      
+![](multiplas.png)
+
+## Questionários - Recursos
+
+- Logical jump   
+- Classes ou valores(aberta)  
+- Timestamp   
+- Gênero   
+![](genero.png)
+
+
+## Questionários - Caracterização e segmentação da amostra
+
+![](amostra.png)
+
+## Métodos de análise
+- Estatística descritiva, multivariada, espacial e não espacial
+- Econometria espacial e não espacial - A Econometria consiste em uma série de ferramentas estatísticas que visam obter relações relevantes entre variáveis a partir de modelos
+- Análise de conteúdo
+- Análise espacial
+- outros....
+
+## Atividade - Abordagem quantitativa
+::: {.medium}
+1. Elabore um questionário que esteja alinhado com sua **pergunta de pesquisa**. Elabore-o por meio do [Google Forms](https://www.google.com/intl/pt-BR/forms/about/).
+2. Inclua perguntas de **atributos socioeconômicos e demográficos**.
+3. Mande no grupo do workshop para que os colegas **respondam** e mandem um **feedback**. 
+:::

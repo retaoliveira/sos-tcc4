@@ -1,0 +1,110 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:300, 300i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Mono&display=swap');
+
+// fonts
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$font-family-monospace: 'lato', monospace;
+
+// colors
+$body-bg: #fcfcfc;
+$body-color: #000000;
+$link-color: #be806d;
+$link-color-hover: lighten($link-color, 15%);
+$selection-color: $body-bg;
+$selection-bg: lighten($link-color, 25%);
+$code-block-border-color: #04b0af;
+$code-color: #026565;
+
+// heading
+$presentation-heading-color: #be806d;
+$presentation-heading-font: 'Atkinson Hyperlegible', sans-serif;
+$presentation-title-slide-text-align: "left";
+$presentation-line-height: 1.5em;
+$presentation-heading-letter-spacing: normal;
+$presentation-heading-text-shadow: #be806d;
+$presentation-h1-font-size: 4em;
+$presentation-h2-font-size: 2em;
+$presentation-slide-text-align: left;
+$presentation-title-slide-text-align: center;
+
+// tabset
+$tabset-border-color: $code-block-border-color;
+
+
+/*-- scss:rules --*/
+
+details>summary {
+  font-size: 1em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.medium {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.huge {
+  font-size: 5em;
+  text-align: center;
+}
+
+.reveal .slide .question {
+  border-left: 3px solid #04b0af;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #D9E3E4;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.reveal .slide .poll {
+  border-left: 3px solid #FFD166;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #FFEDC2;
+}
+
+.reveal .slide .appex {
+  border-left: 3px solid #003559;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background: #EBF7FF;
+}
+
+.reveal a {
+  line-height: 2em;
+}
+
+.reveal b {
+	font-weight: bold;
+	color: #04b0af;
+	font-size: 2em;
+}
+
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: 5px;
+  right: 12px;
+  top: unset !important;
+  left: unset !important;
+  height: 100px !important;
+  width: 100x !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
